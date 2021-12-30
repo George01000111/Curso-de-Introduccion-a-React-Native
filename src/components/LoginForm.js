@@ -7,6 +7,7 @@ export default function LoginForm(){
         <View>
           <TextInput placeholder='Email'/>
           <TextInput placeholder='contrasena'/>
+          <TextInput placeholder='nombre'/>
          <Button title='Enviar' onPress={() => console.log("Enviado")}/>  
 
         </View>
